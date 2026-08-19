@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="LFN Snow Removal badge">
+  <defs>
+    <clipPath id="innerClip"><circle cx="200" cy="200" r="132"/></clipPath>
+  </defs>
+
+  <!-- scalloped sticker edge -->
+  <g>
+    <circle cx="200" cy="200" r="176" fill="#2B2118"/>
+    <g fill="#9AD4F5">
+      <circle cx="200" cy="200" r="168"/>
+    </g>
+  </g>
+
+  <!-- dashed stitch ring -->
+  <circle cx="200" cy="200" r="152" fill="none" stroke="#2B2118" stroke-width="6" stroke-dasharray="14 12" stroke-linecap="round"/>
+
+  <!-- sky window -->
+  <circle cx="200" cy="200" r="132" fill="#E8F4FD"/>
+
+  <g clip-path="url(#innerClip)">
+    <!-- sun -->
+    <circle cx="112" cy="112" r="26" fill="#FFE9A8"/>
+    <g stroke="#FFE9A8" stroke-width="8" stroke-linecap="round">
+      <line x1="112" y1="66" x2="112" y2="52"/>
+      <line x1="112" y1="172" x2="112" y2="158"/>
+      <line x1="66" y1="112" x2="52" y2="112"/>
+      <line x1="158" y1="112" x2="172" y2="112"/>
+      <line x1="80" y1="80" x2="70" y2="70"/>
+      <line x1="144" y1="144" x2="154" y2="154"/>
+      <line x1="144" y1="80" x2="154" y2="70"/>
+      <line x1="80" y1="144" x2="70" y2="154"/>
+    </g>
+
+    <!-- back hill -->
+    <path d="M40 268 Q130 214 220 262 Q300 302 380 258 L380 340 L40 340 Z" fill="#C4D9E8"/>
+    <!-- front hill with mow stripes -->
+    <path d="M20 292 Q120 254 210 292 Q300 328 390 288 L390 350 L20 350 Z" fill="#FFFFFF"/>
+    <g fill="#E3EEF5" opacity="0.75">
+      <rect x="60" y="290" width="26" height="64"/>
+      <rect x="130" y="286" width="26" height="68"/>
+      <rect x="204" y="294" width="26" height="60"/>
+      <rect x="276" y="300" width="26" height="54"/>
+    </g>
+    <!-- grass tufts -->
+    <g stroke="#2B2118" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M100 304 v-36"/><path d="M100 284 l-14 -14"/><path d="M100 288 l14 -16"/>
+      <path d="M300 308 v-36"/><path d="M300 288 l-14 -14"/><path d="M300 292 l14 -16"/>
+    </g>
+  </g>
+
+  <circle cx="200" cy="200" r="132" fill="none" stroke="#2B2118" stroke-width="10"/>
+
+  <!-- LFN letterforms, drawn as shapes so no font is required -->
+  <g transform="translate(200 176)">
+    <g transform="translate(6 6)" fill="#2B2118" opacity="0.35">
+      <path d="M-118 -46 h34 v70 h44 v30 h-78 z"/>
+      <path d="M-28 -46 h74 v29 h-40 v14 h34 v28 h-34 v29 h-34 z"/>
+      <path d="M58 -46 h30 l30 44 v-44 h32 v100 h-30 l-30 -45 v45 h-32 z"/>
+    </g>
+    <g fill="#FFF6DF" stroke="#2B2118" stroke-width="9" stroke-linejoin="round">
+      <path d="M-118 -46 h34 v70 h44 v30 h-78 z"/>
+      <path d="M-28 -46 h74 v29 h-40 v14 h34 v28 h-34 v29 h-34 z"/>
+      <path d="M58 -46 h30 l30 44 v-44 h32 v100 h-30 l-30 -45 v45 h-32 z"/>
+    </g>
+  </g>
+
+  <!-- ribbon -->
+  <g>
+    <path d="M52 250 l32 26 l-32 26 z" fill="#2B2118"/>
+    <path d="M348 250 l-32 26 l32 26 z" fill="#2B2118"/>
+    <rect x="72" y="248" width="256" height="56" rx="14" fill="#2E6FA7" stroke="#2B2118" stroke-width="8"/>
+    <text x="200" y="286" text-anchor="middle" font-family="Fredoka, Verdana, Geneva, sans-serif" font-size="26" font-weight="700" letter-spacing="2" fill="#FFF6DF">SNOW REMOVAL</text>
+  </g>
+</svg>
