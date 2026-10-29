@@ -54,3 +54,15 @@ Type: Fredoka headings, Nunito body, Caveat handwriting.
 Summer: $30 small, $45 medium, $60 big. $10 off a new neighbor's first cut.
 Winter: $15 walks and steps, $30 driveway, $45 both. Salt +$5. Six inches or more
 is double.
+
+Spring and fall cleanup (shown in both seasons, not part of the season switch):
+$60 small (up to 8 bags), $100 medium (up to 15), $150 big (up to 24). Extra bags
+$7 each, bundled sticks $6 each. Price includes paper yard waste bags and City of
+Dubuque yard waste stickers (the city only takes paper bags with a yellow sticker,
+40 pounds max, and brush bundles 3 inches thick or less). Set out for the regular
+city yard waste day, April through November.
+
+## Links
+
+Printed material links to `/?season=winter#book`. `?season=winter|summer` forces the
+season, otherwise the month decides.

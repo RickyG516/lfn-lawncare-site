@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LFN Lawncare Services — Mowing &amp; Snow Removal | South Grandview, Dubuque</title>
-<meta name="description" content="Liam, Finn and Nolan cut grass in summer and shovel snow in winter, South Grandview near Bryant Elementary in Dubuque, Iowa. Ask for a mow or a shovel.">
+<meta name="description" content="Liam, Finn and Nolan cut grass in summer, shovel snow in winter and clean up yards in spring and fall, South Grandview near Bryant Elementary in Dubuque, Iowa. Ask for a mow or a shovel.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
@@ -279,6 +279,10 @@ body.winter #prices{background:#5E86A6}
 .tag .amt{font-family:Fredoka,sans-serif;font-weight:700;font-size:2.9rem;line-height:1;margin:.3rem 0}
 .tag .note{font-size:.9rem;margin:0}
 .pricefoot{text-align:center;margin-top:1.6rem}
+#cleanup{background:var(--paper-2);border-block:5px solid var(--ink);transition:background .5s ease}
+.cleanintro{max-width:640px;margin:0 auto 1.8rem;text-align:center;font-size:1.05rem}
+.cleanfine{max-width:640px;margin:1.2rem auto 0;text-align:center;font-size:.88rem;opacity:.8}
+.cleanlink{text-align:center;margin-top:2.2rem}
 
 #book .panel{
   background:var(--paper-2);border:5px solid var(--ink);border-radius:26px;
@@ -490,6 +494,7 @@ footer .tagline{font-family:Caveat,cursive;font-size:1.6rem;opacity:1;color:var(
       </article>
 
     </div>
+    <p class="cleanlink reveal"><a class="btn ghost" href="#cleanup">New: spring and fall cleanup</a></p>
   </div>
 </section>
 
@@ -585,6 +590,23 @@ footer .tagline{font-family:Caveat,cursive;font-size:1.6rem;opacity:1;color:var(
       <li class="reveal"><span class="num">2</span><div><b>A grown up calls back</b><span data-s="st2">We confirm the day, the price and where to park the mower.</span></div></li>
       <li class="reveal"><span class="num">3</span><div><b data-s="st3t">We show up and cut</b><span data-s="st3">Pay us when it's done and the clippings are gone.</span></div></li>
     </ol>
+  </div>
+</section>
+
+<section id="cleanup">
+  <div class="wrap">
+    <div class="head reveal">
+      <h2>Spring and fall cleanup</h2>
+      <span class="scribble" style="color:var(--ink)">we rake it, bag it, tag it, and curb it</span>
+    </div>
+    <p class="cleanintro reveal">Leaves in the fall, winter junk in the spring. We rake it up, put it in paper yard waste bags, stick on the city tags and set the bags at your curb for your regular city pickup. No truck and no trailer, just three kids who can carry it.</p>
+    <div class="tags">
+      <div class="tag reveal" style="--tilt:-1.5deg"><div class="size">Small cleanup</div><div class="amt">$60</div><p class="note">Up to 8 bags. A small yard with a tree or two.</p></div>
+      <div class="tag reveal" style="--tilt:1deg"><div class="size">Medium cleanup</div><div class="amt">$100</div><p class="note">Up to 15 bags. Normal city lot.</p></div>
+      <div class="tag reveal" style="--tilt:-1deg"><div class="size">Big cleanup</div><div class="amt">$150</div><p class="note">Up to 24 bags. Corner lots and big trees.</p></div>
+    </div>
+    <p class="pricefoot scribble" style="color:var(--ink)">paper bags and city tags are included. Extra bags are $7 each, bundled sticks are $6 each</p>
+    <p class="cleanfine">We bag what the city picks up: leaves, garden trimmings, and small sticks and branches (3 inches thick or less). No dirt, sod, rocks or plastic bags. The city collects yard waste April through November, so we set up your cleanup for that window.</p>
   </div>
 </section>
 
@@ -761,7 +783,7 @@ const COPY = {
     pfoot:"first cut for a new neighbor is $10 off",
     ph:"Dog in the yard, gate code, sprinkler heads, best day of the week.",
     donet:"Got it. \u{1F331}", tag:"Mowed with pride.",
-    jobs:["Mow the lawn","Mow, trim and edge","The whole thing, including hauling","Rake and haul only","Not sure, help me pick"]
+    jobs:["Mow the lawn","Mow, trim and edge","The whole thing, including hauling","Rake and haul only","Spring or fall cleanup","Not sure, help me pick"]
   },
   winter:{
     cta:"Ask for a shovel",
@@ -786,7 +808,7 @@ const COPY = {
     pfoot:"6 inches or more is double, because it is",
     ph:"Where to pile the snow, cars in the driveway, what time you leave for work.",
     donet:"Got it. \u2744\uFE0F", tag:"Shoveled before sunrise.",
-    jobs:["Clear the driveway","Driveway, walks and steps","The whole thing, including salt","Walks and steps only","Set up the whole season","Not sure, help me pick"]
+    jobs:["Clear the driveway","Driveway, walks and steps","The whole thing, including salt","Walks and steps only","Set up the whole season","Spring or fall cleanup","Not sure, help me pick"]
   }
 };
 
