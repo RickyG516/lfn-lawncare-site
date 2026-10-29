@@ -56,11 +56,12 @@ Winter: $15 walks and steps, $30 driveway, $45 both. Salt +$5. Six inches or mor
 is double.
 
 Spring and fall cleanup (shown in both seasons, not part of the season switch):
-$60 small (up to 8 bags), $100 medium (up to 15), $150 big (up to 24). Extra bags
-$7 each, bundled sticks $6 each. Price includes paper yard waste bags and City of
-Dubuque yard waste stickers (the city only takes paper bags with a yellow sticker,
-40 pounds max, and brush bundles 3 inches thick or less). Set out for the regular
-city yard waste day, April through November.
+priced per job by the bags actually filled. $7 per bag (paper bag and City of Dubuque
+yard waste sticker included), $6 per bundle of sticks, $25 smallest job. The crew
+quotes a guess on the callback and adjusts these numbers as they learn how long jobs
+take. The city only takes paper bags with a yellow sticker, 40 pounds max, and brush
+bundles 3 inches thick or less. Set out for the regular city yard waste day, April
+through November.
 
 ## Links
 
