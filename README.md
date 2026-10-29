@@ -64,8 +64,9 @@ Cost-of-goods math for reference (this came to about $9 a bag, so $20 leaves roo
 for learning and slow jobs): about $2.50 of goods per bag
 (30 gallon paper bag about $0.50 to $0.80 plus the $1.75 City of Dubuque yard waste
 sticker), plus labor of $75 an hour for the crew divided by an assumed 12 bags an
-hour, about $6.25. A bundle of sticks costs about $3.50 in goods (brush tie plus
-sticker). The 12 bags an hour and $75 an hour are assumptions. Time the first few
+hour, about $6.25. A bundle of sticks costs about $1.85 in goods (sticker plus twine, assuming the
+city allows twine, to be confirmed with the city; with a city brush tie it is about
+$3.50). The 12 bags an hour and $75 an hour are assumptions. Time the first few
 jobs and update this. Re-check City sticker and tie prices each season.
 
 The city only takes paper bags with a yellow sticker, 40 pounds max, and brush
