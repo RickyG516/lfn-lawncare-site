@@ -56,8 +56,8 @@ Winter: $15 walks and steps, $30 driveway, $45 both. Salt +$5. Six inches or mor
 is double.
 
 Spring and fall cleanup (shown in both seasons, not part of the season switch):
-priced per job by the bags actually filled. $20 per bag (Ricky's call), $10 per
-bundle of sticks, $30 smallest job. The crew quotes a guess on the callback and adjusts these numbers
+priced per job by the bags actually filled. $20 per bag (Ricky's call), $20 per
+bundle of sticks, $40 smallest job (two bags). The crew quotes a guess on the callback and adjusts these numbers
 as they learn how long jobs take.
 
 Cost-of-goods math for reference (this came to about $9 a bag, so $20 leaves room
