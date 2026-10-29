@@ -871,10 +871,12 @@ document.querySelectorAll('.szn').forEach(function(b){
   b.addEventListener('click', function(){ changeSeason(b.dataset.season, b); });
 });
 
-/* Opens on whichever season it actually is. November through March starts on snow. */
+/* Opens on whichever season it actually is. November through March starts on snow.
+   A link can force one with ?season=winter or ?season=summer (the printed QR codes do). */
 (function(){
   const m = new Date().getMonth();
-  paint((m >= 10 || m <= 2) ? 'winter' : 'summer');
+  const asked = new URLSearchParams(location.search).get('season');
+  paint((asked === 'winter' || asked === 'summer') ? asked : (m >= 10 || m <= 2) ? 'winter' : 'summer');
 })();
 
 const form = document.getElementById('mowForm');
